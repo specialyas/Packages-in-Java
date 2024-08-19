@@ -5,7 +5,7 @@ public class Teacher extends AbstractEmployee implements Teachable {
     // Private field for the subject taught
     private String subject;
 
-    // Constructor to initialize the teacher
+    // Constructor to initialize the teacher class
     public Teacher(String name, int age, double salary, String subject) {
         setName(name);
         setAge(age);
